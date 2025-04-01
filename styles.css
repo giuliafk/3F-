@@ -14,7 +14,7 @@
 /* Corpo da página */
 body {
   font-family: "Baskervville SC", serif;
-  color: ;
+  color: 0;
   background: url('imagens/fundo-mar.jpg') no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
@@ -60,7 +60,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-  color: ;
+  color: 0;
   text-decoration: none;
   font-size: 1.5rem;
 }
