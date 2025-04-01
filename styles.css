@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&family=Qwitcher+Grypen:wght@400;700&display=swap');
+
+
+/* Resetando margens e preenchimentos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Corpo da página */
+body {
+  font-family: "Baskervville SC", serif;
+  color: ;
+  background: url('imagens/fundo-mar.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 50px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+    background: linear-gradient(#2f0bbd, #0000);
+}
+
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-right: 30px;
+}
+
+header h1 {
+  font-size: 2rem;
+  color:#0033FF ;
+}
+
+header nav ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 50px;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 50px;
+}
+
+header nav ul li a {
+  color: ;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+header nav ul li a:hover {
+  text-decoration: underline;
+}
+.barra-pesquisa{
+  display: flex;
+  gap: 20px;
+}
+.barra-pesquisa input{
+  border-radius: 20px;
+  border: 20px solid white;
+  width: 250px;
+  transition: border-color 0.3s;
+
+}
+.barra-pesquisa input:hover{
+  border-color: white;
+}
+.barra-pesquisa button{
+  border-radius: 20px;
+  background-color: white;
+  border: 20px solid white;
+  transition: border-color 0.3s;
+}
+.barra-pesquisa button:hover{
+  background-color: white;
+  color: white;
+  border-color: white;
+}
+
+
+/* Seção inicial */
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  text-align: center;
+  
+  padding: 40px;
+}
+
+.intro h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.intro button {
+  background-color: #0000;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  color: #8181FA;
+  transition: background-color 0.3s;
+  
+}
+
+.intro button:hover {
+  background-color: #0033FF;
+}
+
+
+/* Seção Sobre */
+.sobre {
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.6);
+   background-color: #c0c0fc;
+}
+
+.sobre h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.sobre p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+/* Galeria */
+.galeria {
+  padding: 50px;
+  text-align: center;
+}
+
+.galeria h2 {
+  font-size: 2.5rem;
+  margin-bottom: 30px;
+}
+
+.imagens-galeria {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.imagens-galeria img {
+  width: 300px;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s;
+   background-color: #bb0b0b;
+}
+
+.imagens-galeria img:hover {
+  transform: scale(1.1);
+}
+
+/* Contato */
+.contato {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 50px;
+  text-align: center;
+  background: linear-gradient(#c0c0fc, #2f0bbd);
+    border: 2px solid black;
+  
+}
+
+.contato form input, .contato form textarea {
+  width: 80%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  
+}
+
+.contato form button {
+  padding: 10px 20px;
+  background-color: #0033FF;
+  color: #fff;
+  border: none;
+  font-size: 1.3rem;
+  cursor: pointer;
+  
+}
+
+.contato form button:hover {
+  background-color: white;
+}
+
+/* Rodapé */
+footer {
+  background-color: #76C7FC;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  color: #0000;
+ 
+}
